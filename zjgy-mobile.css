@@ -1,0 +1,180 @@
+@charset 'utf-8';
+/*.one{
+	height: 1000px;
+}*/
+.one .one-p{
+	margin: 10px 12% 10px 12%;
+}
+ .p1{
+	color: #333333;
+	font-size: 16px;
+	text-indent: 20px;
+	line-height: 28px;
+	margin-top: 25px;
+}
+.one .ditu{
+	background-image: none;
+
+	
+}
+#ditu1{
+	display: block;
+	width: 100%;
+	padding-top: 30px;
+	
+}
+.ditu img{
+	display: none;
+}
+ .p2{
+	color: #333333;
+	font-size: 16px;
+	text-indent: 20px;
+	line-height: 28px;
+	margin-top: 25px;
+}
+.one-last li{
+	width: 48%;
+	overflow: hidden;
+	padding: 0;
+	margin-left: 1%;
+}
+.one-last li img{
+	width: 110%;
+	height: 150px;
+}
+.one-last li img:hover{
+	transform: scale(1.1);
+	transition: all ease 0.5s;
+}
+
+.two-top{
+	margin-left: 23%;
+}
+.two h3{
+	font-size: 25px;
+	font-weight: bold;
+}
+.two .p3{
+	margin-left: -14%;
+	display: block;
+
+}
+.two img{
+	width: 90%;
+}
+
+.case{
+	position: absolute;
+	top: 0px;
+	left: -35px;
+}
+.color1{
+	color: #0382C5;
+}
+.color3{
+	background-color:#0382C5; 
+}
+.list{
+	padding-bottom: 20px;
+}
+.list li{
+	padding-left: 10%;
+	font-size: 15px;
+	color: #fff;
+	position:relative;
+	margin-top: -5px;
+}
+.list .i1{
+	width: 20px;
+	height: 1px;
+	display: inline-block;
+	line-height: 10px;
+	position: absolute;
+	top: 10px;
+	left: 60px;
+}
+.list .info1{
+	color: #fff;
+	display: inline-block;
+	border-left: 3px solid #fff;
+	padding-left: 12px;
+}
+.dian{
+	background-image: url(image/history_dot.png);
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	left: 76px;
+	top: 6px;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+.p4{
+	margin-left: 15%;
+}
+.three ul li{
+	width: 100%;
+	margin-right: 2%;
+	overflow: hidden;
+	margin-bottom: 10px;
+	
+}
+.fwkh a{
+	position: relative;
+	display: block;
+	color: #fff;
+	height: 320px;
+	text-align: center;
+	line-height: 40px;
+	overflow: hidden;
+}
+.fwkh a:hover{
+	text-decoration: none;
+	color: #fff;
+}
+.fwkh img{
+	width: 100%;
+	height: 320px;
+}
+.fwkh p{
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	bottom: -10px;
+	left: 0px;
+	display: block;
+	background-color:rgba(0,0,0,0.7);
+}
+.fwkh i{
+	position: absolute;
+	background-color: rgba(0,140,214,0.7);
+	width: 100%;
+	height: 280px;
+	list-style: 0;
+	top: 0;
+	display: none;
+}
+.fwkh a:hover i{
+	display: block;
+}
+.fwkh span{
+	background-image: url(image/case_album.png);
+	background-repeat: no-repeat;
+	display: block;
+	width: 65px;
+	height: 65px;
+	position: absolute;
+	left: 36%;
+	top: 40%;
+}
+.fixed-left{
+	display: none;
+}
+.footer-center{
+	width: 100%;
+	padding-top: -50px;
+}
+
+
+

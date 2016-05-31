@@ -1,0 +1,21 @@
+@charset 'utf-8';
+
+/*下面是footer部分*/
+.footer-center{padding: 0px 0px 0px 20px;height: 272px;}
+.footer-center-left{display: none;}
+.footer-center-right{padding-top: 100px;}
+.footer-center-right a{color: #fff;text-decoration: none;display: block;}
+.touch{font-size: 15px;margin-bottom: 10px;}
+.small-p{color: #919191;display: block;font-size: 16px;margin-bottom: 10px;
+line-height: 30px;margin-top: 10px;}
+.gz{display: none;}
+.footer-center-right hr{display: none;border-bottom: none; margin-top: 10px;}
+.footer-last{width: 100%;background-color: #008CD6;height: 83px;}
+.footer-last-center{width: 90%;margin: 0 auto;color: #fff;}
+.footer-last-left {padding-top: 10px;}
+.footer-last-left a{font-size: 12px;}
+.footer-last-left span{display: inline-block;float: left;width: 63%;}
+.footer-last-center a{text-decoration: none;color: #fff;}
+.footer-last-left ul li{float: left;padding: 0 10px;text-align: center;}
+.footer-last-left ul li a{font-size: 12px;}
+.footer-last-right{display: block;}

@@ -1,0 +1,54 @@
+@charset 'utf-8';
+*{padding: 0;margin: 0;font-size: 14px;}
+.clearfix{zoom:1;}
+.clear{clear: both;}
+.clearfix:after{display: table;content: '';clear: both;}
+header{border-top:5px solid #008CD6;
+	border-bottom: 1px solid #B4B4B4; }
+.top-bar-11{position: absolute;width: 133px;height: 42px;
+bottom: -45px;left: -50px;transition:all 3s linear 2s;
+background-image: url(image/sns_tel_box.png);line-height: 40px;
+text-align: center;display: none;}
+
+.top-bar-21{position: absolute;width: 133px;height: 162px;
+bottom: -165px;left: -50px;
+background-image: url(image/top_ewm.png);
+text-align: center;display: none;}
+
+ul{list-style: none;}
+.first a{text-decoration: none;}
+
+.second h1{font-size: 24px;margin-bottom: 20px;font-weight: normal;}
+.down-left a{display: block;background-color: #ABABAB;text-decoration: none;
+color: #fff;text-align: center;height: 55%;width: 100%;line-height: 40px;}
+.down-left span{color: #7D6666;text-align: center;display: block;margin-top: 3px;}
+.down-left a:hover{background-color: #008CD6;}
+#xwzx-a:hover{color:#008CD6; }
+
+.second-left-picture1 img:hover,.second-left-picture2 img:hover
+{transform: scale(1.1,1.1);transition:all ease 0.5s;}
+.up-left img:hover{transform: scale(1.1,1.1);transition:all ease 0.5s;}
+/*解决方案*/
+.center a:hover img{
+	transition:all ease 0.5s;
+	transform: scale(1.1,1.1);
+}
+.center-2 p{width: 100%;display: block;}
+/*行业案例*/
+
+.hyal-last{width: 100%;overflow: hidden;}
+.hyal-center li:hover .li2{
+	-webkit-transform: rotateY(180deg);
+}
+.forth-up h1:hover{color: #008CD6; transition:all ease 0.5s;}
+/*.hyal-center li:hover*/
+.hyal-last img{display: none;}
+.hyal-last-right{display: none;}
+
+/*服务支持*/
+.fifth-main li div,p{display: block;float: left;}
+.fifth-main li p{margin-left: 15px;}
+/*下面是footer部分*/
+.footer-center{width: 95%; background-color: #434343;}
+.footer-center-right .tel{font-size: 28px;font-weight:bold;}
+
